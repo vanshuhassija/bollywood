@@ -1,0 +1,11 @@
+create database register;
+use register;
+create table details
+(id int,
+name varchar(30),
+mn varchar(10),
+mail varchar(30),
+password varchar(20),
+answer varchar(20),
+points int
+);
